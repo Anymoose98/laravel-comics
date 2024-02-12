@@ -21,9 +21,26 @@
     <main>
         {{-- Contenitore sfondo --}}
         <div id="sfondo-img"></div>
-        
+
         <div class="sfondo-nero text-light">
-  
+            <div class="container pt-5">
+                <div class="row">
+                    {{-- Contenuto  --}}
+                    @foreach ($db as $db)
+                        <div class="col-2 my-4">
+                            <div class="text-center">
+                                <img src="{{$db['thumb']}}" class="card-main" alt="{{$db['title']}}">
+                                  <h5 class="card-title">{{$db['title']}}</h5>
+                              </div>
+                        </div>  
+                    @endforeach
+
+                    {{-- Bottone --}}
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn load-more mb-4 px-5 ">LOAD MORE</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function(){
     $db = config('db');
-    dd($db);
-    return view('home');
+    
+    return view('home',compact('db'));
 });
 
 

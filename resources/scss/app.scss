@@ -58,6 +58,20 @@ a{
 // colore dello sfondo del contenuto del main
 .sfondo-nero{
     background-color: black;
+    .card-main{
+        max-height: 200px;
+    }
+    .load-more{
+        background-color: rgb(35, 146, 250);
+        color: white;
+    }
+    .load-more:hover{
+        background-color: white;
+        color: rgb(35, 146, 250);
+        border: solid 1px;
+        border-color: rgb(35, 146, 250);
+
+    }
 }
 
 // Sfondo Footer
@@ -128,3 +142,4 @@ footer {
         }
     }
 }
+
