@@ -21,10 +21,10 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-2">
-                    <img src="/public/images/dc-logo.png" alt="" class="img-fluid" id="logo-header">
+                    <img src="../../../public/images/dc-logo.png">
                 </div>
                 <div class="col-8  d-flex align-items-center mt-3">
-                    <ul class="d-flex align-items-center">
+                    <ul class="d-flex align-items-center ul-header">
                         <li>
                             <a href="">Chracters</a>
                         </li>
