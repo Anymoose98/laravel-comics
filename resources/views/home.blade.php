@@ -21,16 +21,9 @@
     <main>
         {{-- Contenitore sfondo --}}
         <div id="sfondo-img"></div>
+        
         <div class="sfondo-nero text-light">
-            <ul class="m-0">
-                <li>prova</li>
-                <li>prova</li>
-                <li>prova</li>
-                <li>prova</li>
-                <li>prova</li>
-                <li>prova</li>
-                <li >prova</li>
-            </ul>
+  
         </div>
     </main>
 

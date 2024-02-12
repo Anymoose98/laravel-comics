@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function(){
+    $db = config('db');
+    dd($db);
     return view('home');
 });
 
