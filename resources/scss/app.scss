@@ -1,8 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// header
 .bg-blu{
     background-color: rgb(35, 146, 250);
 }
+
 ul{
     list-style-type: none;
 
@@ -10,6 +17,8 @@ ul{
 a{
     text-decoration: none;
 }
+
+// Ul header
 .ul-header {
     li {
         display: inline-block;
@@ -37,6 +46,8 @@ a{
 #logo-header{
     width: 30px;
 }
+
+// img soot all'header
 #sfondo-img {
     background-image: url(../../public/images/jumbotron.jpg);
     background-size: cover;
@@ -44,10 +55,12 @@ a{
     height: 300px;
 }
 
+// colore dello sfondo del contenuto del main
 .sfondo-nero{
     background-color: black;
 }
 
+// Sfondo Footer
 footer {
     background-image: url(../../public/images/footer-bg.jpg);
     background-size: cover;
@@ -76,6 +89,8 @@ footer {
         margin-left: 50px;
     }
 }
+
+// Parte sotto al footer
 .bg-scuro{
     background-color: rgb(48, 48, 48);
     
