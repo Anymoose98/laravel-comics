@@ -19,5 +19,12 @@ Route::get('/', function(){
     return view('home',compact('db'));
 });
 
+route::get('/fumetto/{param}',function($id){
+    dd($id);
+
+
+    return view('dettaglio-fumetto',compact('db'));
+})->name('dettaglo_fumetto');
+
 
 

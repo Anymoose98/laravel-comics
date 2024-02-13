@@ -10,12 +10,14 @@
                 <div class="row">
                     {{-- Contenuto  --}}
                     @foreach ($db as $db)
-                        <div class="col-2 my-4">
+                    <div class="col-2 my-4">
+                        <a href="{{ route('dettaglo_fumetto', ['param' => $db['id']]) }}">
                             <div class="text-center effetto-hover">
                                 <img src="{{$db['thumb']}}" class="card-main" alt="{{$db['title']}}">
                                   <h5 class="card-title">{{$db['title']}}</h5>
-                              </div>
-                        </div>  
+                            </div>
+                        </a>
+                    </div>  
                     @endforeach
 
                     {{-- Bottone --}}
