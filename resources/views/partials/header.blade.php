@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-2">
-                    <img src="../../../public/images/dc-logo.png">
+                    <img src="{{ vite::asset('')}}">
                 </div>
                 <div class="col-8  d-flex align-items-center mt-3">
                     <ul class="d-flex align-items-center ul-header">

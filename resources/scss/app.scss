@@ -61,6 +61,10 @@ a{
     .card-main{
         max-height: 200px;
     }
+    .effetto-hover:hover {
+        filter: drop-shadow(0 0 4em white);
+        transform: scale(1.2);
+    }
     .load-more{
         background-color: rgb(35, 146, 250);
         color: white;

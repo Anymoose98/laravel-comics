@@ -28,7 +28,7 @@
                     {{-- Contenuto  --}}
                     @foreach ($db as $db)
                         <div class="col-2 my-4">
-                            <div class="text-center">
+                            <div class="text-center effetto-hover">
                                 <img src="{{$db['thumb']}}" class="card-main" alt="{{$db['title']}}">
                                   <h5 class="card-title">{{$db['title']}}</h5>
                               </div>
