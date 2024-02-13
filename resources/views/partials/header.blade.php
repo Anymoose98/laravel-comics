@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+
     <header>
         <div class="bg-blu">
             <div class="container">
@@ -21,7 +13,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-2">
-                    <img src="{{ vite::asset('')}}">
+                    <img src="/images/dc-logo.png" id="logo-header">
                 </div>
                 <div class="col-8  d-flex align-items-center mt-3">
                     <ul class="d-flex align-items-center ul-header">
@@ -60,12 +52,10 @@
                 <div class="col-2">
                     <div class="input-group flex-nowrap">
                         <input type="text" class="form-control" placeholder="Cerca"  aria-describedby="addon-wrapping">
-                        <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
-                      </div>
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>  
+                    </div>
                 </div>
             </div>
            
         </div>
     </header>
-</body>
-</html>
