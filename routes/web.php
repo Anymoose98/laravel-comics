@@ -20,8 +20,17 @@ Route::get('/', function(){
 });
 
 route::get('/fumetto/{param}',function($id){
-    dd($id);
+    $db = config('db');
+    $fumetto=null;
 
+    // dd($id);
+    
+    foreach($db as $db){
+        if($db['id'] == $id){
+            $fumetto = $db;
+        }
+    }
+    dd($fumetto);
 
     return view('dettaglio-fumetto',compact('db'));
 })->name('dettaglo_fumetto');
