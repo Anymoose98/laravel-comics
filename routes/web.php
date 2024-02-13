@@ -19,21 +19,19 @@ Route::get('/', function(){
     return view('home',compact('db'));
 });
 
-route::get('/fumetto/{param}',function($id){
+route::get('/dettaglio_fumetto/{param}',function($id){
     $db = config('db');
     $fumetto=null;
 
-    // dd($id);
     
     foreach($db as $db){
         if($db['id'] == $id){
             $fumetto = $db;
         }
     }
-    dd($fumetto);
 
-    return view('dettaglio-fumetto',compact('db'));
-})->name('dettaglo_fumetto');
+    return view('dettaglio_fumetto',compact('fumetto'));
+})->name('dettaglio_fumetto');
 
 
 

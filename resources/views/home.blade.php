@@ -3,7 +3,7 @@
 @section('content')
     
         {{-- Contenitore sfondo --}}
-        <div id="sfondo-img"></div>
+    <div id="sfondo-img"></div>
 
         <div class="sfondo-nero text-light">
             <div class="container pt-5">
@@ -11,7 +11,7 @@
                     {{-- Contenuto  --}}
                     @foreach ($db as $db)
                     <div class="col-2 my-4">
-                        <a href="{{ route('dettaglo_fumetto', ['param' => $db['id']]) }}">
+                        <a href="{{ route('dettaglio_fumetto', ['param' => $db['id']]) }}">
                             <div class="text-center effetto-hover">
                                 <img src="{{$db['thumb']}}" class="card-main" alt="{{$db['title']}}">
                                   <h5 class="card-title">{{$db['title']}}</h5>
